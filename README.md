@@ -97,24 +97,26 @@ Digunakan untuk deployment model di lingkungan web.
 ---
 
 ## 📂 Struktur Folder
+
+```text
 submission/
 ├── saved_model/
-│ ├── assets/
-│ ├── variables/
-│ ├── saved_model.pb
-│ └── fingerprint.pb
+│   ├── assets/
+│   ├── variables/
+│   ├── saved_model.pb
+│   └── fingerprint.pb
 │
 ├── tflite/
-│ ├── model.tflite
-│ └── label.txt
+│   ├── model.tflite
+│   └── label.txt
 │
 ├── tfjs_model/
-│ ├── model.json
-│ └── group*.bin
+│   ├── model.json
+│   └── group*.bin
 │
 ├── README.md
 ├── requirements.txt
-├── notebook.ipynb
+└── notebook.ipynb
 
 ---
 
